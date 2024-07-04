@@ -1,0 +1,123 @@
+.feature1 {
+    min-height: 100vh;
+    background: #f9f9f9;
+  }
+
+  .feature1 .heading1{
+    font-size: 32px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+   
+    width: 100%;
+    color: #333;
+
+  }
+  
+.feature1 .heading1 span{
+    color: #0098a1;
+}
+
+  .feature1 .card-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+.feature1 h2{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #0098a1;
+    color: #333;
+    text-align: center;
+}
+
+  .feature1 .card-container1 .card1 {
+    width: 28%;
+    margin: 2rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.3rem 1.5rem rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .feature1 .card-container1 .card1 img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  .feature1 .card-container1 .content1 {
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .feature1 .card-container1 .content1 .title1 {
+    color: #0098a1;
+    font-size: 2rem;
+    margin: 3px;
+    padding: 3px;
+  }
+  
+  .feature1 .card-container1 .content1 p {
+    color: #333;
+    font-size: 1.2rem;
+    padding: 3px;
+    margin: 3px;
+  }
+  .feature1 .card-container1 .content1 .stars{
+    margin: 7px;
+  }
+  .feature1 .card-container1 .content1 .stars i {
+    padding: 3px;
+    font-size: 18px;
+    color: gold;
+  }
+  
+  .feature1 .card-container1 .content1 .btn {
+    font-size: 16px;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    height: 13px;
+    width: 6rem;
+    justify-content: center;
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+    background: #0098a1;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s linear;
+  }
+  
+  .feature1 .card-container1 .content1 .btn:hover {
+    background: none;
+    border: 0.2rem solid #0098a1;
+    color: #0098a1;
+  }
+  
+  .feature1 .card-container1 .card1 .discount1 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: block;
+    height:40px ;
+    width: 40px;
+    background: #eb5c72;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 2rem;
+  }
+
+  .feature1 .card-container1 .card1 .discount1:hover{
+    background:#f6082b;
+  }
+  
+  
